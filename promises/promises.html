@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Promises</title>
+</head>
+
+<body>
+    <h4>Картинки загружаются синхронно (по очереди). Появляются по очереди </h4>
+    <div id="images1"></div>
+    <h4>Картинки загружаются синхронно (аналог 1)</h4>
+    <div id="images2"></div>
+    <h4>Картинки загружаются ассинхронно и на событие load добавляются в div без соблюдения порядка</h4>
+    <div id="images3"></div>
+    <h4>Картинки загружаются ассинхронно и на событие load добавляются в div c соблюдением порядка по очереди</h4>
+    <div id="images4"></div>
+    <h4>Картинки загружаются ассинхронно и на событие load добавляются в div c соблюдением порядка без очереди</h4>
+    <div id="images5"></div>
+    <h4>Ассинхронно onload all</h4>
+    <div id="images6"></div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
