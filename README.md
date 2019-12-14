@@ -1,3 +1,3 @@
-# javascript_projects
+# JavascriptProjects
 
-squares - training canvas (animation)
+Squares - training canvas (animation)
